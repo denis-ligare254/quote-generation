@@ -12,7 +12,26 @@
   ### link to where the project is located 
   The project can be located here (https://github.com/denis-ligare254/quote-generation).
   ### link to a live project demonstration
-  The project can be located here () for a live demonstration
+  The project can be located here () for a live demonstration.
+
+  ## downloading the project
+  Downloading the project is as easy as possible.kindly follow the following steps in order to download the project to your local repository
+  ~click the link (https://github.com/denis-ligare254/quote-generation).
+  ~create an empty repositry in yout pc
+  ~clone the repo localy using the below command
+     ~git clone https://github.com/denis-ligare254/quote-generation.
+   ~lastly open it in your text editor to customize to your favorite taste
+
+  ## project contribution
+  ~To clone contribute to the project, do the following
+    ~Fork the repository
+    ~clone changing your fork
+    ~making and changing the fork
+    ~making a pull request
+  ~congrats! you are done
+  
+  ## future scope
+  ~The project isnt finished yet,in future am looking foward to improve its functionalities 
 
 # Licence
 Copyright (c) 2020 dennis ligare
