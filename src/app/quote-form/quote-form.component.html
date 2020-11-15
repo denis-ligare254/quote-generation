@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <h2 class="text-center">ADD A QUOTE</h2>
+    <h2 class="text-center">Kindly submit Quote</h2>
     <hr>
     <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
      <div class="form-group">
@@ -17,12 +17,12 @@
             <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' >
             
             <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-                    <p>Author is required</p>
+                    <!-- <p>Author is required</p> -->
                   </div> 
         </div>
 
         <div class="form-group">
-             <label for="submittedBy">Submitted By</label> 
+             <label for="submittedBy">Your Name:</label> 
             <input type='text' id="submit" required class="form-control" [(ngModel)]="newQuote.submittedBy" name="submittedBy" #submittedBy='ngModel'>
             <div [hidden]="submittedBy.valid || submittedBy.pristine" class="alert alert-danger">
                
