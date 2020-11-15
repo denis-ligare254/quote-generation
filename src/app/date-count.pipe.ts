@@ -7,7 +7,7 @@ export class DateCountPipe implements PipeTransform {
 
   transform(value: any): number {
     let currentDay : Date = new Date();
-    let todayWithNoTime:any = new Date(currentDay.getFullYear(),currentDay.getMonth(),currentDay.getDate());
+    let todayWithNoTime: any = new Date(currentDay.getFullYear(),currentDay.getMonth(),currentDay.getDate());
    
 
     var dateDifference = Math.abs(todayWithNoTime-value);
