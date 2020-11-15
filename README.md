@@ -2,6 +2,17 @@
 ## By ~Denis Ligare.
 # introduction:
 ~ quote submission web application is a simple aplication that prompts users to insert/put any quotes of their liking,it then in turn return to them the kind of quote they have made and their names.It gives the users the ability to votge for the quotes ,either by upvote or down vote.The application then allow them to delete the submitted quotes if they want to .
+## Technologies used
+~The following are some of the technologies i used to built the application
+  ~angular framework
+  ~bootstrap
+  ~HTML5
+  ~CSS3
+  ~Javascript
+  ### link to where the project is located 
+  The project can be located here (https://github.com/denis-ligare254/quote-generation).
+  ### link to a live project demonstration
+  The project can be located here () for a live demonstration
 
 # Licence
 Copyright (c) 2020 dennis ligare
