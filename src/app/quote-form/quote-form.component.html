@@ -7,6 +7,7 @@
          <label for="name">Quote</label>
         <textarea class="form-control" id="description" rows="4" required id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel'></textarea>
         <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+         
                     <p>{{ newQuote.name }}</p>
                 <p>Name is required</p>
               </div> 
