@@ -25,14 +25,14 @@
              <label for="submittedBy">Submitted By</label> 
             <input type='text' id="submit" required class="form-control" [(ngModel)]="newQuote.submittedBy" name="submittedBy" #submittedBy='ngModel'>
             <div [hidden]="submittedBy.valid || submittedBy.pristine" class="alert alert-danger">
-                    <!-- <p>Person who submitted is required</p> -->
+               
                   </div> 
         </div>
         <div class="form-group">
                 <label for="dt">Date</label>
                 <input type='date' id="dt" required class="form-control" [(ngModel)]="newQuote.dateCreation" name="dateCreation" #dateCreation='ngModel'> 
                 <div [hidden]="dateCreation.valid || dateCreation.pristine" class="alert alert-danger">
-                        <!-- <p>Date it was created</p> -->
+                       
                       </div> 
                       <button type="submit" class="btn btn-primary">submit</button>
         </div>
