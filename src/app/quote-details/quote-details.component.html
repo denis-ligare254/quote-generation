@@ -2,8 +2,8 @@
     
     <p> Author{{quote.author}}</p>
     <p>By{{ quote.submittedBy }} on {{quote.dateCreation|date}}
-        <button (click)="quote.upvotes=quote.upvotes+1" class="">upvotes {{quote.upvotes}}</button>
-        <button (click)="quote.downvotes=quote.downvotes+1" class="">downvotes {{quote.downvotes}}</button>
+        <button (click)="quote.upvotes=quote.upvotes+1" class="">thumbsUp {{quote.upvotes}}</button>
+        <button (click)="quote.downvotes=quote.downvotes+1" class="">thumbsDown {{quote.downvotes}}</button>
         <br><br>
     </p><button class="btn btn-outline-danger" (click)= "quoteDelete(true)">Delete</button>
   </div>
