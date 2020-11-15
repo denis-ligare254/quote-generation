@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ppp"
+    }
+  },
+  "defaultProject": "ppp",
+  "cli": {
+    "analytics": false
+  }
 }
