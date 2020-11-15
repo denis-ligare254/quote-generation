@@ -12,7 +12,7 @@ export class DateCountPipe implements PipeTransform {
 
     var dateDifference = Math.abs(todayWithNoTime-value);
     const secondsInDay = 86400;
-    var dateDifferenceSeconds = dateDifference*0.001;
+    var dateDifferenceSeconds = dateDifference* 0.001;
 
     var dateCounter = dateDifferenceSeconds/secondsInDay;
 
